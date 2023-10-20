@@ -1,0 +1,67 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    width: 210px;
+    height: 310px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 15px 10px rgba(56, 56, 56, 0.75);
+    position: relative;
+
+}
+
+#imagen1 {
+    background-image: url(IMAGENES/foto1.jpg);
+}
+
+#imagen1::before {
+    content: "15% de descuento";
+    color: white;
+    display: block;
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    width: 95%;
+    border-radius: 00px 0px 30px 30px;
+    bottom: 0%;
+    text-align: center;
+}
+
+#imagen2 {
+    background-image: url(IMAGENES/foto2.jpg);
+}
+
+#imagen2::before {
+    content: "20% de descuento";
+    color: white;
+    display: block;
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    width: 95%;
+    border-radius: 00px 0px 30px 30px;
+    bottom: 0%;
+    text-align: center;
+}
+
+#imagen3 {
+    background-image: url(IMAGENES/foto3.jpg);
+}
+
+#imagen3::before {
+    content: "Sin espacio";
+    color: white;
+    display: block;
+    position: absolute;
+    padding: 5px;
+    background-color: red;
+    width: 95%;
+    border-radius: 0px 0px 30px 30px;
+    bottom: 0%;
+    text-align: center;
+}

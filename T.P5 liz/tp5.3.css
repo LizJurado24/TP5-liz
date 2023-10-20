@@ -1,0 +1,15 @@
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(IMAGENES/foto3.jpg);
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+div:hover {
+    width: 250px;
+    height: 300px
+}
